@@ -66,7 +66,7 @@ case $choice in
                  echo "Please enter valid username."
                fi;;
  
-           5) read -p "Enter a username: " passupdateuser
+        5) read -p "Enter a username: " passupdateuser
 	     if [[ $passupdateuser != '' ]]; then
 		     passwd $passupdateuser
 		     if [[ $? -eq 0  ]]; then
@@ -76,7 +76,7 @@ case $choice in
 		     fi
 	     else
 		     echo "Please enter correct username or password."
-	     fi;; 
+	    fi;; 
            6) exit;;
 	   *) echo "Please enter a valid menu choice."
 esac

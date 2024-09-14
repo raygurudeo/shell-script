@@ -127,7 +127,7 @@ case $choice in
     done;;
     ################### End Of Add user section ##############################################################
 
-5)  bash /home/guru/guru/90DaysOfDevOpsChallenge/day05/modify_user.sh
+5)  bash /home/guru/devops/shell-script/modify_user.sh
     ;;
 6)  read -p "Enter a username to be deleted: " deleteuser
     if [[ $deleteuser != '' ]]; then
